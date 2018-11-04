@@ -1,6 +1,5 @@
 # Base image
-FROM golang:1.11.1-alpine3.8
+FROM golang:1.11.2-stretch
 
 # Install dep
-RUN apk add --no-cache git \
-    && go get -u github.com/golang/dep/cmd/dep
+RUN go get -u github.com/golang/dep/cmd/dep

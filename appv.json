@@ -1,5 +1,5 @@
 {
     "name": "godep",
-    "version": "1.11.1-alpine3.8",
+    "version": "1.11.2-stretch",
     "registry": "czarsimon"
 }
